@@ -14,7 +14,7 @@
 .cardWrapper {
     display: flex;
     flex-direction: column;
-    margin: 2rem;
+    margin: 1rem;
     padding: 2rem 2rem 0rem 2rem;
     border: 2px solid rgb(248, 247, 247);
     width: fit-content;
@@ -29,7 +29,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.5rem 0;
+    padding: 1rem 0 1.5rem 0;
     font-family: trade-gothic-next, sans-serif;
     color: #333;
 
@@ -58,4 +58,33 @@
 
 .right {
     text-align: right;
+}
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 1023px) {
+    .imgWrapper {
+        border: 1px solid red;
+        width: 400px;
+        box-sizing: content-box;
+        height: 350px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 0.25s ease-in-out;
+        border: 1px solid rgb(231, 229, 229);
+    
+    }
+
+
+.cardWrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 1rem 1rem 0rem 1rem;
+    border: 2px solid rgb(248, 247, 247);
+    width: fit-content;
+
+    }
 }

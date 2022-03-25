@@ -13,3 +13,69 @@
    flex-wrap: wrap;
    justify-content: center;
  }
+
+ .header {
+   display: flex;
+   flex-direction: row;
+   padding: 2rem;
+   .label {
+     width: 49vw;
+     color: #7d7d7d;
+     font-size: 1.5rem;
+     svg {
+       height: 30px;
+       opacity: 0.5;
+     }
+   }
+   border-bottom: 1px solid #f8f7f7;
+ }
+
+ .projectName {
+  color: #7d7d7d;
+  font-size: 1.5rem;
+  text-align: left;
+  width: 49vw;
+  
+ }
+
+ .copy {
+   font-size: 1rem;
+   div {
+     padding-bottom: 0.5rem;
+   }
+
+ }
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 1023px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    .label {
+      width: 80vw;
+      display: flex;
+      color: #7d7d7d;
+      font-size: 1rem;
+      svg {
+        height: 20px;
+        width: 180px;
+        opacity: 0.5;
+      }
+    }
+    border-bottom: 1px solid #f8f7f7;
+  }
+
+
+  .projectName {
+    color: #7d7d7d;
+    font-size: 1.5rem;
+    text-align: left;
+    width: 90vw;
+    padding-top: 1rem;
+    
+   }
+  
+
+}
